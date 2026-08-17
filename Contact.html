@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COntact _ Ralp's Portfolio</title>
+    <!-- Font Awesome for Icon -->
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <a href="fontawesome-free-7.3.1-web/css/all.min.css"></a>
+  </head>
+  <body id="Top">
+    <!-- for Header -->
+    <header>
+      <h1>Emmanuel Ralph's Contact Portfolio</h1>
+      <p>I am very delited to Welcome You to My Gallery Portfolio, Relax!!!</p>
+    </header>
+
+    <!-- For Navigation -->
+    <nav>
+      <a href="Index.html">Home</a> | <a href="Gallery.html">Gallery</a> |
+      <a href="Lists-and-tables.html">List & Table</a> |
+      <a href="Media.html">Media & Extras</a>
+    </nav>
+    <hr />
+
+    <main>
+      <h2>For Contact</h2>
+
+      <form action="#" method="post">
+        <p>
+          <label for="fullname">Fullname</label><br />
+          <input
+            type="text"
+            id="fullname"
+            name="fullname"
+            placeholder="Enter your fullname"
+            required
+            autofocus
+          />
+        </p>
+
+        <p>
+          <label for="Email">Email Address</label><br />
+          <input
+            type="email"
+            name="Email"
+            id="Email"
+            placeholder="xxxxxx@email.com"
+            required
+            autofocus
+          />
+        </p>
+
+        <p>
+          <label for="tell">Phone Number</label><br />
+          <input
+            type="number"
+            name="Phone Number"
+            id="tell"
+            placeholder="+2340000000000"
+            maxlength="11"
+          />
+        </p>
+
+        <p>
+          <label for="password">Password</label><br />
+          <input type="password" name="password" id="password" minlength="8" />
+        </p>
+
+        <p>
+          <label for="date">Date of Birth</label><br />
+          <input type="date" name="date" id="date" />
+        </p>
+
+        <fieldset>
+          <legend>Gender</legend>
+          <br />
+          <input type="radio" name="gender" id="male" value="male" />
+          <label for="male">Male</label>
+
+          <input type="radio" name="gender" id="female" value="female" />
+          <label for="female">Female</label>
+
+          <input type="radio" name="gender" id="others" value="others" />
+          <label for="gender">Others</label>
+        </fieldset>
+        <p></p>
+        <fieldset>
+          <legend>Subject of Interest</legend>
+          <input type="checkbox" name="Interest" id="English" value="English" />
+          <label for="English">English</label><br />
+
+          <input
+            type="checkbox"
+            name="Interest"
+            id="Mathematics"
+            value="Mathematics"
+          />
+          <label for="Mathematics">Mathematics</label><br />
+
+          <input
+            type="checkbox"
+            name="Interest"
+            id="Chemistry"
+            value="Chemistry"
+          />
+          <label for="Chemistry">Chemistry</label><br />
+
+          <input type="checkbox" name="interest" id="Biology" value="Biology" />
+          <label for="Biology">Biology</label><br />
+        </fieldset>
+        <p>
+          <label for="state">State</label>
+          <select name="state" id="state">
+            <option value="Abia">Abia</option>
+            <option value="Anambra">Anambra</option>
+            <option value="Ebonyi">Ebonyi</option>
+            <option value="Enugu">Enugu</option>
+            <option value="Imo">imo</option>
+          </select>
+        </p>
+        <p>
+          <label for="message">Message</label><br />
+          <textarea
+            name="message"
+            id="message"
+            rows="7"
+            cols="50"
+            maxlength="400"
+            placeholder="type message"
+          ></textarea>
+        </p>
+        <p>
+          <input
+            type="text"
+            value="This field is readonly"
+            readonly
+            name=""
+            id=""
+          /><br />
+          <input
+            type="text"
+            value="This field is disabled"
+            disabled
+            name=""
+            id=""
+          />
+        </p>
+        <p>
+          <button type="submit">Submit Form</button>
+        </p>
+      </form>
+    </main>
+    <!-- for footer -->
+    <footer>
+      <p>&copy; 2026 Ralph's Personal Profile. All right reserved</p>
+      <p>
+        <a href="malito:ugwuemmanul20@gmail.com">Email</a> |
+        <a href="tell:+2348144997735">contact</a>
+      </p>
+    </footer>
+  </body>
+</html>
